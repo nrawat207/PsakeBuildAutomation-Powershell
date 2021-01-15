@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>MyProject.WPF.TEST</id>
+    <version>0.0.0</version>
+    <authors>Nrawat</authors>
+    <owners>Nrawat</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>MyProject.WPF</description>
+  </metadata>
+  <files>
+    <file src="*.dll" exclude="*Test*.dll" target=""/>
+    <file src="*.exe" target=""/>
+    <file src="app.test.config" target="MyProject.WPF.exe.config"/>
+    <file src="log4net.config" target="log4net.config"/>
+  </files>
+</package>
