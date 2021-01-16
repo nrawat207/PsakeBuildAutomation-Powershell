@@ -4,6 +4,6 @@ This is a build automation script using psake framework in powershell. Added the
 # Command to Execute
 invoke-psake -t dorelease
 
-# utput:
+# output:
 ![alt text](https://github.com/nrawat207/PsakeBuildAutomation-Powershell/blob/master/docs/Build%20Output1.jpg)
 ![alt text](https://github.com/nrawat207/PsakeBuildAutomation-Powershell/blob/master/docs/Build%20Output2.jpg)
