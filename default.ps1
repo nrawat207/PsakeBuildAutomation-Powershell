@@ -104,10 +104,10 @@ task Test -depends CompileMain{
 	}
 	
 	Create-Directory $buildDir\TestReports
-	
+	echo "outputDir :$outputDir"
 	$testAssemblies = @()
 	$testAssemblies += Get-ChildItem -path "$outputDir" -recurse -include *.Test.dll
-	
+	echo "testAssemblies :$testAssemblies"
 	$added = @();
 	$result = @();
 	

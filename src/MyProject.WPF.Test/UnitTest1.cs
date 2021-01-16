@@ -8,6 +8,7 @@ namespace MyProject.WPF.Test
         [Test]
         public void TestMethod1()
         {
+        
         }
     }
 }
